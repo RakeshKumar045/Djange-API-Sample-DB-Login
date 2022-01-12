@@ -28,5 +28,8 @@ urlpatterns = [
     path("submit_expression", include("myapp.urls")),
     path("add", include("myapp.urls")),
     path("add_result", include("myapp.urls")),
-    path("login", include("myapp.urls"))
+    path("login", include("myapp.urls")),
+    path("signup", include("myapp.urls")),
+    # path("myapp2/", include("myapp2.urls")),
+    # path("signin/", include("myapp2.urls")),
 ]

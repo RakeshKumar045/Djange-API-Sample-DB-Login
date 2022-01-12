@@ -17,6 +17,7 @@ urlpatterns = [
     path("submit_expression", views.submit_name_anything, name="Submit test raka"),
     path("add", views.add_number, name="add test raka"),
     path("add_result", views.add_result, name=" result add raka"),
-    path("login", views.add_result, name="login raka"),
+    path("login", views.login, name="login raka"),
+    path("signup", views.signup, name="add test raka"),
 
 ]
